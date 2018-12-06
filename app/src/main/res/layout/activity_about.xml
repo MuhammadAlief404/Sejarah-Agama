@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgAbout"
+            android:layout_width="186dp"
+            android:layout_height="148dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"
+            android:layout_margin="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About This App"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How it Built"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was…"/>
+
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teams"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2101670463 - Muhammad Alief
+    2101663930 - Wisley Lukito
+    2101656364 - Wilsen Zen
+    2101673742 - Rafif Rahmadjo
+    2101658035 - Jenniver Venezia
+    2101675571 - Abizar Alif Rifqi" />
+
+
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="References"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image : Pexels.com" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgamaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgAgama"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/txtAgama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:text="Agama"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textStyle="bold"
+            android:text="Sejarah Awal"/>
+
+        <TextView
+            android:id="@+id/txtSejarah"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:text="By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was…"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:text="Awal Mula Masuk ke Indonesia"/>
+
+        <TextView
+            android:id="@+id/txtMasukIndo"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:text="By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was…"/>
+    </LinearLayout>
+</ScrollView>
